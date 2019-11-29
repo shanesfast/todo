@@ -1,0 +1,15 @@
+{
+  // If not specified searches for 'rubocop' executable available on PATH (default and recommended)
+  "ruby.rubocop.executePath": "/Users/quickmac/.rvm/gems/ruby-2.5.3/wrappers/",
+
+  // You can use specific path
+  // "ruby.rubocop.executePath": "/Users/you/.rbenv/shims/"
+  // "ruby.rubocop.executePath": "/Users/you/.rvm/gems/ruby-2.3.2/bin/"
+  // "ruby.rubocop.executePath": "D:/bin/Ruby22-x64/bin/"
+
+  // If not specified, it assumes a null value by default.
+  "ruby.rubocop.configFilePath": "/Users/quickmac/Desktop/coding/src/todo/.rubocop.yml",
+
+  // default true
+  "ruby.rubocop.onSave": true
+}

@@ -36,4 +36,10 @@ RSpec.describe TasksController, type: :controller do
       expect(Task.last.title).to eq("Fix things")
     end
   end
+
+  describe "tasks#destroy" do
+    it "should allow tasks to be destroyed." do
+      "hello"
+    end
+  end
 end
